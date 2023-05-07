@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS BMI Caclculator</title>
+    <link rel="shortcut icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5J8FHfGQrmL-HC3EJYVjkGnEyercCqV5UYg&usqp=CAU"
+        type="image/x-icon">
+    <link rel="stylesheet" href="./bmi.css">
+    <script src="./bmi.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">BMI Calculator</h1>
+        <p>Height (in cm)</p>
+        <input type="number" id="height">
+        <p>Weight (in Kg)</p>
+        <input type="number" id="weight">
+        <button id="btn">Calculate</button>
+        <div id="result">Result</div>
+    </div>
+
+    <!-- 
+        Q)    Why does the html input with type "number" allow the letter 'e' to be entered in the field?
+        Ans) Because that's exactly how the spec says it should work. The number input can accept floating-point numbers, including negative symbols and the e or E character (where the exponent is the number after the e or E):
+
+     -->
+</body>
+
+</html>

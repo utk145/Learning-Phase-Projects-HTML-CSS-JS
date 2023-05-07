@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    /* --color: #0044ff; */
+    --color: #9c27b0;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+}
+
+.container {
+    margin-top: 50px;
+    width: 300px;
+    box-shadow: 0px 0px 20px 10px var(--color);
+    padding: 50px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: #fff;
+    transform: perspective(1000px) rotateZ(0deg);
+    animation-name: shake;
+    animation-duration: 1s;
+}
+
+.heading {
+    margin-bottom: 40px;
+    color: var(--color);
+}
+
+p {
+    font-size: 20px;
+    color: #555;
+}
+
+input {
+    border: none;
+    border-bottom: 1.3px solid var(--color);
+    margin-bottom: 20px;
+    width: 50%;
+    outline: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 27px;
+    transition: border-bottom-color 0.3s ease-in-out;
+}
+
+input:focus {
+    border-bottom-color: #555;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: var(--color);
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: var(--color);
+}
+
+#result {
+    margin-top: 26px;
+    font-size: 20px;
+    opacity: 0.6;
+    color: #555;
+}
+
+@keyframes shake {
+    0% {
+        transform: perspective(1000px) rotateZ(.5deg);
+    }
+
+    10% {
+        transform: perspective(1000px) rotateZ(-.5deg);
+    }
+
+    20% {
+        transform: perspective(1000px) rotateZ(.5deg);
+    }
+
+    30% {
+        transform: perspective(1000px) rotateZ(-.5deg);
+    }
+
+    40% {
+        transform: perspective(1000px) rotateZ(.5deg);
+    }
+
+    50% {
+        transform: perspective(1000px) rotateZ(-.5deg);
+    }
+
+    60% {
+        transform: perspective(1000px) rotateZ(.5deg);
+    }
+
+    70% {
+        transform: perspective(1000px) rotateZ(-.5deg);
+    }
+
+    80% {
+        transform: perspective(1000px) rotateZ(.5deg);
+    }
+
+    90% {
+        transform: perspective(1000px) rotateZ(-.5deg);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateZ(.5deg);
+    }
+}
