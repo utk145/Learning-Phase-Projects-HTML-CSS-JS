@@ -22,4 +22,4 @@ open and run bmi.html
 ```
 
 
-![image](/Untitled%20video%20-%20Made%20with%20Clipchamp.gif)
+![image](./vid.gif)
