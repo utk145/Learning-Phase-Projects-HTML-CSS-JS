@@ -19,7 +19,7 @@ At Masai School, Mr. Sekhar collaborates closely with the team to design and dev
 
 Resources: Masai School
 
-![image](./Untitled%20video%20-%20Made%20with%20Clipchamp.gif)
+![image](./img.gif)
 
 
 Happy coding!
