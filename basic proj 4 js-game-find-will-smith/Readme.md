@@ -10,4 +10,5 @@ To play the game, move your mouse cursor around the screen to find the hidden im
 ## Technical Details
 The game is implemented using JavaScript, and uses the `Math.random()` function to generate a random location for the image on the screen. The game also uses the `Date()` function to measure the time it takes to find the image. The game is designed to be simple and easy to understand, and can be customized or modified as needed.
 
-![Gif](./assets/Clipchamp.gif)
+
+![Clipchamp](https://github.com/utk145/Learning-Phase-Projects-HTML-CSS-JS/assets/122993091/d05c3d62-4b0a-4a41-8b03-1a53bf41cd4c)
