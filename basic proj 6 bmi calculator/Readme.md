@@ -22,4 +22,4 @@ open and run bmi.html
 ```
 
 
-![image](./vid.gif)
+![vid](https://github.com/utk145/Learning-Phase-Projects-HTML-CSS-JS/assets/122993091/00b6fd95-e157-45e5-97ec-12439fec0eb8)
