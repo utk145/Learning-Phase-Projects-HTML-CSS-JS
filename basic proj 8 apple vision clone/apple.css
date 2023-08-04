@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    position: relative;
+    overflow: hidden;
+}
+
+.page1 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #010001;
+}
+
+.page1>nav {
+    height: 7vh;
+    width: 50vw;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.page1>nav a {
+    text-decoration: none;
+    color: #EBEBEB;
+}
+
+.page1>nav .notify {
+    padding: 4px 15px;
+    background: #EBEBEB;
+    overflow: hidden;
+    color: #000;
+    border-radius: 14px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.page1 video {
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.page1_btm {
+    height: 20%;
+    width: 25%;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page1_btm h3 {
+    color: #c4c3c3;
+    margin-bottom: 1vw;
+}
+
+.page1_btm img {
+    height: 36%;
+}
+
+.page2 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+}
+
+.page2>video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.page2>h1 {
+    font-size: 2.5vw;
+    color: white;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 700;
+}
+
+.page3 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.page3>video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.page3>h1 {
+    font-size: 2.5vw;
+    color: white;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 700;
+    text-align: center;
+}
+
+.page4 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.page4>video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.page4>h1 {
+    font-size: 2.7vw;
+    color: white;
+    position: absolute;
+    bottom: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 700;
+    text-align: center;
+}
+
+.page5 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.page5>video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.page5>h1 {
+    font-size: 2.7vw;
+    color: white;
+    position: absolute;
+    bottom: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.page6 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.page6>img {
+    width: 55%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.page6_1 {
+    height: 26%;
+    width: 35%;
+    position: absolute;
+    z-index: 9;
+    left: 50%;
+    top: 2%;
+    transform: translateX(-50%);
+}
+
+.page6_1>img {
+    width: 80%;
+    height: 50%;
+    object-fit: contain;
+    left: 50%;
+    top: 10%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.page6_1_inner {
+    position: absolute;
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+    color: #ff7328;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.page6>a {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    font-size: 20px;
+    transform: translateX(-50%);
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 3.3px solid black;
+    color: black;
+    border-radius: 30px;
+}
+
+.page6>a span:first-child {
+    font-weight: 700;
+}
+.page6>a:hover{
+    color: white;
+    background: #000;
+    transition: all .5s ease;
+}
