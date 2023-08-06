@@ -12,3 +12,5 @@ Download the code zip file and then run index.html file.
 
 ## Appreciation
 I would like to express my heartfelt appreciation to Apple for their innovative design and groundbreaking technology showcased in the Apple Vision Pro website. Their commitment to excellence in product design and user experience serves as an inspiration for this project. Without the creativity and vision of Apple, this project would not have been possible.
+
+![ezgif com-video-to-gif](https://github.com/utk145/Learning-Phase-Projects-HTML-CSS-JS/assets/122993091/f1a13cc0-a8ff-49e4-8565-6af6e78f13f4)
